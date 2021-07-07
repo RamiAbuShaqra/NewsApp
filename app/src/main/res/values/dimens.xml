@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text sizes -->
+    <dimen name="news_details">14sp</dimen>
+    <dimen name="news_title">18sp</dimen>
+
+    <!-- Standard paddings and margins -->
+    <dimen name="zero_width">0dp</dimen>
+    <dimen name="standard_one">6dp</dimen>
+    <dimen name="standard_two">8dp</dimen>
+    <dimen name="standard_three">16dp</dimen>
+
+</resources>

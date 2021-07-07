@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="root_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/standard_two</item>
+        <item name="android:paddingBottom">@dimen/standard_two</item>
+        <item name="android:paddingStart">@dimen/standard_three</item>
+        <item name="android:paddingLeft">@dimen/standard_three</item>
+        <item name="android:paddingEnd">@dimen/standard_three</item>
+        <item name="android:paddingRight">@dimen/standard_three</item>
+    </style>
+
+    <style name="content_details">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/news_details</item>
+        <item name="android:textSize">@dimen/news_details</item>
+    </style>
+
+    <style name="author_details">
+        <item name="android:layout_width">@dimen/zero_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/author_name</item>
+        <item name="android:textSize">@dimen/news_details</item>
+    </style>
+
+    <style name="news_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/light_blue_dark</item>
+        <item name="android:textSize">@dimen/news_title</item>
+    </style>
+
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">News App</string>
+
+    <!-- Text to display in the list when there are no contents [CHAR LIMIT=NONE] -->
+    <string name="no_contents">No contents found!</string>
+
+    <!-- Text to display in the list when there is no internet connection [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection!</string>
+
+    <!-- The (Section) word before the section name -->
+    <string name="section_word">Section: </string>
+
+    <!-- The (Published) word before the published date -->
+    <string name="published_word">Published on: </string>
+
+</resources>
